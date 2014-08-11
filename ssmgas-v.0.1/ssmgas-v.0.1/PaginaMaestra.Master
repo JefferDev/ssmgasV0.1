@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="ssmgas_v._0._1.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html lang="es-co">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="SSMAGAS:autopartes para la conversion de gasolina a gas natural" />
+    <meta name="keywords" content="rocores, contenedores, gas natural vehicular, gnv, glp, accesorios" />
+    <meta name="author" content="MohanSoft" />
+    <title>Pedreros Orozco & Cia.</title>
+
+
+    <!--Estilos-->
+
+    <link href="Estilos/default.css" rel="stylesheet" />
+
+    <!--/Estilos-->
+
+    <script src="Scripts/modernizr.custom.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--Logo-->
+        <%-- <div class="logo">
+            <a href="default.aspx"><img src="img/logo.png" alt="Pedreros Orozco & Cia." width="350" height="150" /></a>
+        </div>--%>
+        <!--/Logo-->
+        <!--Barra de navegacion-->
+        <nav id="menu-principal" class="menu-principal" role="navigation">
+            <ul>
+                <li>
+                    <a href="/default.aspx">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Nuestra Empresa</a>
+                    <div class="submenu">
+                        <div class="submenu-interno">
+                            <div>
+                                <a href="#">
+                                    <h4>Historia</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            El vídeo proporciona una manera eficaz para ayudarle a demostrar el punto.
+                                            Para otorgar a su documento un aspecto profesional, Word proporciona encabezados, pies de página, páginas de portada y 
+                                            diseños de cuadro de texto que se complementan entre sí.
+
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <h4>Misión & Visión</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Por ejemplo, 
+                                            puede agregar una portada coincidente, el encabezado y la barra lateral. 
+                                            Haga clic en Insertar y elija los elementos que desee de las distintas galerías.
+                                            Los temas y estilos también ayudan a mantener su documento coordinado
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <h4>Certificacion & Respaldo</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Cuando haga clic en Diseño y seleccione un tema nuevo, 
+                                            cambiarán las imágenes, gráficos y gráficos SmartArt para que coincidan con el nuevo 
+                                            tema. Al aplicar los estilos, los títulos cambian para coincidir con el nuevo tema.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /submenu-interno -->
+                    </div>
+                    <!-- /submenu -->
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                    <div class="submenu">
+                        <div class="submenu-interno">
+                            <div>
+                                <h4>Contenedores & Protectores</h4>
+                                <ul>
+                                    <li><a href="#">Protector Manometro</a></li>
+                                    <li><a href="#">Protector Potenciometro Landi-Renzo</a></li>
+                                    <li><a href="#">Contenedor Hermetico Tipo A</a></li>
+                                    <li><a href="#">Ver mas....</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Accesorios</h4>
+                                <ul>
+                                    <li><a href="#">Sistema de refrigeración</a></li>
+                                    <li><a href="#">Electronicos</a></li>
+                                    <li><a href="#">Filtros de 5a Generación</a></li>
+                                    <li><a href="#">Racores</a></li>
+                                    <li><a href="#">Ver mas....</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Ajustadores De Flujo</h4>
+                                <ul>
+                                    <li><a href="#">Ajustador de flujo en X</a></li>
+                                    <li><a href="#">Ajustador de flujo en Y</a></li>
+                                    <li><a href="#">Ajustador de flujo en Linea</a></li>
+                                    <li><a href="#">Ver mas....</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- /submenu-interno -->
+                    </div>
+                    <!-- /submenu -->
+                </li>
+                <li>
+                    <a href="#">Mezcladores</a>
+                    <div class="submenu">
+                        <div class="submenu-interno">
+                            <div>
+                                <h4>Learning &amp; Games</h4>
+                                <ul>
+                                    <li><a href="#">Catch the Bullet</a></li>
+                                    <li><a href="#">Snoopydoo</a></li>
+                                </ul>
+                                <h4>Utilities</h4>
+                                <ul>
+                                    <li><a href="#">Gadget Finder</a></li>
+                                    <li><a href="#">Green Tree Express</a></li>
+                                    <li><a href="#">Green Tree Pro</a></li>
+                                    <li><a href="#">Wobbler 3.0</a></li>
+                                    <li><a href="#">Coolkid</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Education</h4>
+                                <ul>
+                                    <li><a href="#">Learn Thai</a></li>
+                                    <li><a href="#">Math Genius</a></li>
+                                    <li><a href="#">Chemokid</a></li>
+                                </ul>
+                                <h4>Professionals</h4>
+                                <ul>
+                                    <li><a href="#">Success 1.0</a></li>
+                                    <li><a href="#">Moneymaker</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /submenu-interno -->
+                    </div>
+                    <!-- /submenu -->
+                </li>
+                <li>
+                    <a href="#">Contactenos</a>
+                    <div class="submenu">
+                        <div class="submenu-interno">
+                            <div>
+                                <h4>Learning &amp; Games</h4>
+                                <ul>
+                                    <li><a href="#">Catch the Bullet</a></li>
+                                    <li><a href="#">Snoopydoo</a></li>
+                                    <li><a href="#">Fallen Angel</a></li>
+                                    <li><a href="#">Sui Maker</a></li>
+                                    <li><a href="#">Wave Master</a></li>
+                                    <li><a href="#">Golf Pro</a></li>
+                                </ul>
+                                <h4>Utilities</h4>
+                                <ul>
+                                    <li><a href="#">Gadget Finder</a></li>
+                                    <li><a href="#">Green Tree Express</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Entertainment</h4>
+                                <ul>
+                                    <li><a href="#">Gadget Finder</a></li>
+                                    <li><a href="#">Green Tree Express</a></li>
+                                    <li><a href="#">Green Tree Pro</a></li>
+                                    <li><a href="#">Holy Cannoli</a></li>
+                                    <li><a href="#">Wobbler 3.0</a></li>
+                                    <li><a href="#">Coolkid</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /submenu-interno -->
+                    </div>
+                    <!-- /submenu -->
+                </li>
+            </ul>
+        </nav>
+        <!--/Barra de navegacion-->
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+        <!--Footer-->
+
+        <footer class="footer">
+            <div>
+
+                <p>Copyright &copy; SSMGAS 2014 </p>
+                <p>Diseñado y Desarrollado por MohanSoft &copy Todos los derechos reservados</p>
+
+            </div>
+            <div class="contenedor contactoFooter">
+                <button>680 - 3589</button>
+            </div>
+        </footer>
+        <!--/Footer-->
+
+        <!--Scripts-->
+        <script src="Scripts/jquery-2.1.1.min.js"></script>
+        <script src="Scripts/default.js"></script>
+        <!--/Scripts-->
+
+        <script type="text/javascript">
+            $(function () {
+                HorizontalMenu.init();
+            });
+
+            new TiltSlider(document.getElementById('slideshow'));
+
+		</script>
+
+
+    </form>
+
+
+</body>
+
+</html>
