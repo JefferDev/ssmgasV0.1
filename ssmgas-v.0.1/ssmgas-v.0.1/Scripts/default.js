@@ -17,7 +17,7 @@
         }
 
         var $item = $(event.currentTarget).parent('li'),
-			idx = $item.index();
+            idx = $item.index();
 
         if (current === idx) {
             $item.removeClass('submenu-abierto');
@@ -43,22 +43,25 @@
 })();
 
 
-var rotateEvery = 2; //seconds
-var images = [
-    "http://placehold.it/148x148",
-    "http://placehold.it/150x149",
-    "http://placehold.it/149x150",
-    "http://placehold.it/149x149",
-    "http://placehold.it/150x150"];
-var curImage = 0;
-setInterval(delayFunction, rotateEvery * 1000);
-function delayFunction() {
-    if (curImage == images.length) {
-        curImage = 0;
-    }
-    $('#homeback').fadeOut('slow', function () {
-        $(this).css("background-image", 'url(' + images[curImage] + ')').fadeIn('slow');
-        curImage++;
-    });
+//var tiempoRotacion = 10; //seconds
+//var bgImages = [
+//    "img/bg2.jpg",
+//    "img/bg1.jpg",
+//    "img/bg3.jpg",
+//    "img/bg2.jpg",
+//    "img/bg3.jpg"];
 
-} ne;
+
+//var curImage = 0;
+//setInterval(cambioBg, tiempoRotacion * 1000);
+
+//function cambioBg() {
+//    if (curImage == bgImages.length) {
+//        curImage = 0;
+//    }
+//    $('.slides').fadeOut('slow', function () {
+//        $(this).css("background", 'url(' + bgImages[curImage] + ')').fadeIn('slow');
+//        curImage++;
+//    });
+
+//}

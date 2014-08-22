@@ -10,6 +10,6 @@
 namespace ssmgas_v._0._1.Vistas {
     
     
-    public partial class Productos {
+    public partial class NuestraEmpresa {
     }
 }

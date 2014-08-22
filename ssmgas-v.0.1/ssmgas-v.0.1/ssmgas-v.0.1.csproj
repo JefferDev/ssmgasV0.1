@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Estilos\normalize.css" />
     <Content Include="default.aspx" />
     <Content Include="Estilos\bootstrap.css" />
     <Content Include="Estilos\bootstrap.min.css" />
@@ -64,6 +65,7 @@
     <Content Include="Estilos\default.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="icon.ico" />
     <Content Include="img\1.jpg" />
     <Content Include="img\10.jpg" />
     <Content Include="img\11.jpg" />
@@ -92,7 +94,11 @@
     <Content Include="img\7.jpg" />
     <Content Include="img\8.jpg" />
     <Content Include="img\9.jpg" />
+    <Content Include="img\beruVeritas.jpg" />
     <Content Include="img\bg1.jpg" />
+    <Content Include="img\bg2.jpg" />
+    <Content Include="img\bg3.jpg" />
+    <Content Include="img\contenedor.jpg" />
     <Content Include="img\footer.png" />
     <Content Include="img\logo.png" />
     <Content Include="packages.config" />
@@ -108,6 +114,9 @@
     <Content Include="Scripts\modernizr.custom.js" />
     <Content Include="Scripts\photostack.js" />
     <Content Include="Scripts\tiltSlider.js" />
+    <Content Include="Vistas\Contacto.aspx" />
+    <Content Include="Vistas\Mezcladores.aspx" />
+    <Content Include="Vistas\NuestraEmpresa.aspx" />
     <Content Include="Vistas\Productos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -130,6 +139,27 @@
       <DependentUpon>PaginaMaestra.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mezcladores.aspx.cs">
+      <DependentUpon>Mezcladores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mezcladores.aspx.designer.cs">
+      <DependentUpon>Mezcladores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\NuestraEmpresa.aspx.cs">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\NuestraEmpresa.aspx.designer.cs">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Productos.aspx.cs">
       <DependentUpon>Productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +170,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PaginaMaestra.Master" />
+    <Content Include="fonts\Champagne &amp; Limousines.ttf" />
+    <Content Include="fonts\Opificio.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

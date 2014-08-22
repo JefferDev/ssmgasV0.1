@@ -9,77 +9,73 @@
     <meta name="description" content="SSMAGAS:autopartes para la conversion de gasolina a gas natural" />
     <meta name="keywords" content="rocores, contenedores, gas natural vehicular, gnv, glp, accesorios" />
     <meta name="author" content="MohanSoft" />
+    <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
     <title>Pedreros Orozco & Cia.</title>
 
 
     <!--Estilos-->
-
-    <link href="Estilos/default.css" rel="stylesheet" />
+    <link href="Estilos/normalize.css" rel="stylesheet" />
+    <link href="/Estilos/default.css" rel="stylesheet" />
 
     <!--/Estilos-->
-
-    <script src="Scripts/modernizr.custom.js"></script>
+    <!--Script-->
+    <script src="/Scripts/modernizr.custom.js"></script>
+    <!--/Script-->
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
 </head>
 <body>
     <form id="form1" runat="server">
-        <!--Logo-->
-        <%-- <div class="logo">
-            <a href="default.aspx"><img src="img/logo.png" alt="Pedreros Orozco & Cia." width="350" height="150" /></a>
-        </div>--%>
-        <!--/Logo-->
+
         <!--Barra de navegacion-->
         <nav id="menu-principal" class="menu-principal" role="navigation">
             <ul>
-                <li>
-                    <a href="/default.aspx">Inicio</a>
+
+                <li onclick="inicio()">Inicio
                 </li>
+
                 <li>
                     <a href="#">Nuestra Empresa</a>
                     <div class="submenu">
                         <div class="submenu-interno">
                             <div>
-                                <a href="#">
+                                <a href="/Vistas/NuestraEmpresa.aspx">
                                     <h4>Historia</h4>
                                 </a>
                                 <ul>
                                     <li>
                                         <p>
-                                            El vídeo proporciona una manera eficaz para ayudarle a demostrar el punto.
-                                            Para otorgar a su documento un aspecto profesional, Word proporciona encabezados, pies de página, páginas de portada y 
-                                            diseños de cuadro de texto que se complementan entre sí.
-
+                                            SSMGAS fundada el 11 de febrero de 1991 es una compañía la cual presta el servicio de suministro de la 
+                                            línea de mezcladores, racores y accesorios a la industria del GNV y GLP en general.
                                         </p>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <a href="#">
+                                <a href="/Vistas/NuestraEmpresa.aspx">
                                     <h4>Misión & Visión</h4>
                                 </a>
                                 <ul>
                                     <li>
                                         <p>
-                                            Por ejemplo, 
-                                            puede agregar una portada coincidente, el encabezado y la barra lateral. 
-                                            Haga clic en Insertar y elija los elementos que desee de las distintas galerías.
-                                            Los temas y estilos también ayudan a mantener su documento coordinado
+                                            SSMGAS para el 2017 se consolidara como la empresa líder 
+                                            en el mercado nacional de productos para la industria automotriz y domiciliario del GNV y GLP.
                                         </p>
+
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <a href="#">
+                                <a href="/Vistas/NuestraEmpresa.aspx">
                                     <h4>Certificacion & Respaldo</h4>
                                 </a>
                                 <ul>
                                     <li>
                                         <p>
-                                            Cuando haga clic en Diseño y seleccione un tema nuevo, 
-                                            cambiarán las imágenes, gráficos y gráficos SmartArt para que coincidan con el nuevo 
-                                            tema. Al aplicar los estilos, los títulos cambian para coincidir con el nuevo tema.
+                                            Con una politica de calidad bien planteada y ejecutada hemos logrado obtener las mas
+                                            altas certificaciones internacionales de claidad en mas de 30 referecnicas de nuestros 
+                                            productos, brindando seguridad y respaldo a nuestros clientes.
                                         </p>
                                     </li>
                                 </ul>
@@ -90,35 +86,35 @@
                     <!-- /submenu -->
                 </li>
                 <li>
-                    <a href="#">Productos</a>
+                    <a href="/Vistas/Productos.aspx">Productos</a>
                     <div class="submenu">
                         <div class="submenu-interno">
                             <div>
                                 <h4>Contenedores & Protectores</h4>
                                 <ul>
-                                    <li><a href="#">Protector Manometro</a></li>
-                                    <li><a href="#">Protector Potenciometro Landi-Renzo</a></li>
-                                    <li><a href="#">Contenedor Hermetico Tipo A</a></li>
-                                    <li><a href="#">Ver mas....</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Protector Manometro</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Protector Potenciometro Landi-Renzo</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Contenedor Hermetico Tipo A</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ver mas....</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h4>Accesorios</h4>
                                 <ul>
-                                    <li><a href="#">Sistema de refrigeración</a></li>
-                                    <li><a href="#">Electronicos</a></li>
-                                    <li><a href="#">Filtros de 5a Generación</a></li>
-                                    <li><a href="#">Racores</a></li>
-                                    <li><a href="#">Ver mas....</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Sistema de refrigeración</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Electronicos</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Filtros de 5a Generación</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Racores</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ver mas....</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h4>Ajustadores De Flujo</h4>
                                 <ul>
-                                    <li><a href="#">Ajustador de flujo en X</a></li>
-                                    <li><a href="#">Ajustador de flujo en Y</a></li>
-                                    <li><a href="#">Ajustador de flujo en Linea</a></li>
-                                    <li><a href="#">Ver mas....</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ajustador de flujo en X</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ajustador de flujo en Y</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ajustador de flujo en Linea</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Ver mas....</a></li>
                                 </ul>
                             </div>
 
@@ -227,23 +223,29 @@
         </footer>
         <!--/Footer-->
 
-        <!--Scripts-->
-        <script src="Scripts/jquery-2.1.1.min.js"></script>
-        <script src="Scripts/default.js"></script>
-        <!--/Scripts-->
 
-        <script type="text/javascript">
-            $(function () {
-                HorizontalMenu.init();
-            });
-
-            new TiltSlider(document.getElementById('slideshow'));
-
-		</script>
 
 
     </form>
+    <!--Scripts-->
+    <script src="/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="/Scripts/default.js"></script>
+    <!--/Scripts-->
 
+    <script type="text/javascript">
+        $(function () {
+            HorizontalMenu.init();
+        });
+
+        new TiltSlider(document.getElementById('slideshow'));
+
+        function inicio() {
+            $('.menu-principal li:nth-child(1)').click(function () {
+                $(location).attr('href','/default.aspx');
+            });
+        }
+
+    </script>
 
 </body>
 

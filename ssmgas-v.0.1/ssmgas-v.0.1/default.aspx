@@ -22,8 +22,8 @@
                     <div class="tiltview col">
                         <a href="Vistas/Productos.aspx">
                             <img src="img/logo.png" /></a>
-                        <a href="https://tsovet.com/">
-                            <img src="img/2_screen.jpg" /></a>
+                        <a href="#">
+                            <img src="img/beruVeritas.jpg" /></a>
                     </div>
                 </li>
                 <li>
@@ -32,9 +32,9 @@
                         <p>Constantemente con nuestro esfuerzo y dedicación, logramos obtener de las mas altas certficaciones en calidad y desarrollo del mercado. </p>
                     </div>
                     <div class="tiltview row">
-                        <a href="http://pexcil.com/">
+                        <a href="#">
                             <img src="img/3_mobile.jpg" /></a>
-                        <a href="http://foodsense.is/">
+                        <a href="#">
                             <img src="img/4_mobile.jpg" /></a>
                     </div>
                 </li>
@@ -44,9 +44,9 @@
                         <p>El desarrollo de nuevas tecnologias al servicio del GNV & GLP.</p>
                     </div>
                     <div class="tiltview col">
-                        <a href="http://minimalmonkey.com/">
+                        <a href="#">
                             <img src="img/5_screen.jpg" /></a>
-                        <a href="http://www.herschelsupply.com/">
+                        <a href="#">
                             <img src="img/6_screen.jpg" /></a>
                     </div>
                 </li>
@@ -56,9 +56,9 @@
                         <p>Tranajamos con materiales de la mas alta calidad para brindar confianza y seguridad a nuestros clientes.</p>
                     </div>
                     <div class="tiltview row">
-                        <a href="http://grovemade.com/">
+                        <a href="#">
                             <img src="img/1_mobile.jpg" /></a>
-                        <a href="https://tsovet.com/">
+                        <a href="#">
                             <img src="img/2_mobile.jpg" /></a>
                     </div>
                 </li>
@@ -68,9 +68,9 @@
                         <p>Tu auto y el mundo te agradeceran un sistema de gas vehicular SSMGAS.</p>
                     </div>
                     <div class="tiltview col">
-                        <a href="http://pexcil.com/">
+                        <a href="#">
                             <img src="img/3_screen.jpg" /></a>
-                        <a href="http://foodsense.is/">
+                        <a href="#">
                             <img src="img/4_screen.jpg" /></a>
                     </div>
                 </li>
@@ -80,9 +80,9 @@
                         <p>Con el uso del Gas Natural Vehicular ayudas a reducir la emision de gases contaminantes de Co2.</p>
                     </div>
                     <div class="tiltview row">
-                        <a href="http://minimalmonkey.com/">
+                        <a href="#">
                             <img src="img/5_mobile.jpg" /></a>
-                        <a href="http://www.herschelsupply.com/">
+                        <a href="#">
                             <img src="img/6_mobile.jpg" /></a>
                     </div>
                 </li>
