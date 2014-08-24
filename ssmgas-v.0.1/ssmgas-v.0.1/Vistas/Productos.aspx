@@ -54,32 +54,32 @@
             </div>
         </div>
         <div class="contendedor-imagenes">
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>
             </div>
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>
             </div>
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>
             </div>
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>
             </div>
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>
             </div>
-            <div class="img-portafolio">
+            <div class="img-portafolio img-producto">
                 <a>
                     <img src="http://placehold.it/350x250" alt="">
                 </a>

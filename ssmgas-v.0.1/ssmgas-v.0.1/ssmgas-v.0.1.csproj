@@ -61,7 +61,6 @@
     <Content Include="default.aspx" />
     <Content Include="Estilos\bootstrap.css" />
     <Content Include="Estilos\bootstrap.min.css" />
-    <Content Include="Estilos\slide.css" />
     <Content Include="Estilos\default.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -77,6 +76,13 @@
     <Content Include="img\1_mobile.jpg" />
     <Content Include="img\1_screen.jpg" />
     <Content Include="img\2.jpg" />
+    <Content Include="img\20041TAPON CONTENEDOR HERMETICO.jpg" />
+    <Content Include="img\20141CONTENEDOR HERMETICO TIPO C.jpg" />
+    <Content Include="img\20141PROTECTOR MARAMAPNGV MOTORI.jpg" />
+    <Content Include="img\20141PROTECTOR POTENCIOMETRO.jpg" />
+    <Content Include="img\2014BUSHING 3 CUARTOS Y 3 OCTAVOS.jpg" />
+    <Content Include="img\2014RACOR MACHO MANGUERA 1 MEDIO.jpg" />
+    <Content Include="img\2014RACOR MACHO MANGUERA UN MEDIO POR UN CUARTO.jpg" />
     <Content Include="img\2_mobile.jpg" />
     <Content Include="img\2_screen.jpg" />
     <Content Include="img\3.jpg" />
@@ -94,13 +100,52 @@
     <Content Include="img\7.jpg" />
     <Content Include="img\8.jpg" />
     <Content Include="img\9.jpg" />
+    <Content Include="img\ADAP-HEMBRA-8-MM.jpg" />
+    <Content Include="img\ADAP-MACHO-8-MM.jpg" />
+    <Content Include="img\ADAPTADOR-AGUA-GRANDE.jpg" />
+    <Content Include="img\ADAPTADOR-AGUA-PEQUENO.jpg" />
+    <Content Include="img\ajustador de flujo en linea.jpg" />
+    <Content Include="img\AJUSTADOR FLUJO X.jpg" />
+    <Content Include="img\AJUSTADOR-DE-FLUJO-EN-Y-FUNDICION.jpg" />
+    <Content Include="img\ARANDELA MANOMETRO.jpg" />
+    <Content Include="img\arrows.png" />
     <Content Include="img\beruVeritas.jpg" />
     <Content Include="img\bg1.jpg" />
     <Content Include="img\bg2.jpg" />
     <Content Include="img\bg3.jpg" />
+    <Content Include="img\BICONO-PARA-TUBERIA.jpg" />
+    <Content Include="img\BOQUILLA VENTEO %281%29.jpg" />
+    <Content Include="img\BOQUILLA VENTEO.jpg" />
+    <Content Include="img\BOQUILLA-LANDIRENZO.jpg" />
+    <Content Include="img\BOQUILLA-NGV.jpg" />
+    <Content Include="img\CODO-MEZCLADOR-16.jpg" />
+    <Content Include="img\CODO-MEZCLADOR-16.png" />
+    <Content Include="img\Contenedor tipo Bretocado %281%29.jpg" />
+    <Content Include="img\Contenedor-hermetico-tipo-A.jpg" />
     <Content Include="img\contenedor.jpg" />
     <Content Include="img\footer.png" />
+    <Content Include="img\GRAPA-PARA-RUTA.jpg" />
+    <Content Include="img\imagenes-ssmgas.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\paisajeRide.jpg" />
+    <Content Include="img\PLATINA-PICO.jpg" />
+    <Content Include="img\PLATINA-REGULADOR.jpg" />
+    <Content Include="img\PROMIS-12-CORTO.jpg" />
+    <Content Include="img\PROMIS-12-LARGO.jpg" />
+    <Content Include="img\PROMISC-14-CORTO.jpg" />
+    <Content Include="img\PROMISC-16-LARGO.jpg" />
+    <Content Include="img\Protector para pico de llenado.jpg" />
+    <Content Include="img\Protector Sensor.jpg" />
+    <Content Include="img\Protector-manometro-AEB.jpg" />
+    <Content Include="img\protectorManometro.png" />
+    <Content Include="img\protectorSSMGAS.png" />
+    <Content Include="img\RACOR-CORTO.jpg" />
+    <Content Include="img\RACOR-LARGO.jpg" />
+    <Content Include="img\TAPON-1-4-NPT.jpg" />
+    <Content Include="img\TAPON-CORTO.jpg" />
+    <Content Include="img\TAPON-LARGO.jpg" />
+    <Content Include="img\TEE PORTA MANOMETRO.jpg" />
+    <Content Include="img\TEE-3-VIAS.jpg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -111,11 +156,9 @@
     <Content Include="Scripts\default.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
-    <Content Include="Scripts\modernizr.custom.js" />
-    <Content Include="Scripts\photostack.js" />
-    <Content Include="Scripts\tiltSlider.js" />
+    <Content Include="Scripts\jquery.cslider.js" />
+    <Content Include="Scripts\modernizr.custom.28468.js" />
     <Content Include="Vistas\Contacto.aspx" />
-    <Content Include="Vistas\Mezcladores.aspx" />
     <Content Include="Vistas\NuestraEmpresa.aspx" />
     <Content Include="Vistas\Productos.aspx" />
     <Content Include="Web.config" />
@@ -145,13 +188,6 @@
     </Compile>
     <Compile Include="Vistas\Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Vistas\Mezcladores.aspx.cs">
-      <DependentUpon>Mezcladores.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Vistas\Mezcladores.aspx.designer.cs">
-      <DependentUpon>Mezcladores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\NuestraEmpresa.aspx.cs">
       <DependentUpon>NuestraEmpresa.aspx</DependentUpon>

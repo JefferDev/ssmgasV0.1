@@ -41,27 +41,3 @@
     return { init: init };
 
 })();
-
-
-//var tiempoRotacion = 10; //seconds
-//var bgImages = [
-//    "img/bg2.jpg",
-//    "img/bg1.jpg",
-//    "img/bg3.jpg",
-//    "img/bg2.jpg",
-//    "img/bg3.jpg"];
-
-
-//var curImage = 0;
-//setInterval(cambioBg, tiempoRotacion * 1000);
-
-//function cambioBg() {
-//    if (curImage == bgImages.length) {
-//        curImage = 0;
-//    }
-//    $('.slides').fadeOut('slow', function () {
-//        $(this).css("background", 'url(' + bgImages[curImage] + ')').fadeIn('slow');
-//        curImage++;
-//    });
-
-//}

@@ -11,7 +11,7 @@ namespace ssmgas_v._0._1.Vistas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

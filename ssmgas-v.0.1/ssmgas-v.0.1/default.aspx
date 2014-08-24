@@ -1,135 +1,105 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ssmgas_v._0._1._default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
-    <script src="Scripts/classie-tilded.js"></script>
-    <script src="Scripts/tiltSlider.js"></script>
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!-- Slider -->
 
-    <header>
 
-        <div class="slideshow" id="slideshow">
-            <ol class="slides">
-                <li class="current">
-                    <div class="description">
-                        <h2>SSMGAS</h2>
-                        <p>Dedicados a la investigación y desarrollo continuo de nuevas tecnologias.</p>
-                    </div>
-                    <div class="tiltview col">
-                        <a href="Vistas/Productos.aspx">
-                            <img src="img/logo.png" /></a>
-                        <a href="#">
-                            <img src="img/beruVeritas.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="description">
-                        <h2>Respaldo & Experiencia</h2>
-                        <p>Constantemente con nuestro esfuerzo y dedicación, logramos obtener de las mas altas certficaciones en calidad y desarrollo del mercado. </p>
-                    </div>
-                    <div class="tiltview row">
-                        <a href="#">
-                            <img src="img/3_mobile.jpg" /></a>
-                        <a href="#">
-                            <img src="img/4_mobile.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="description">
-                        <h2>Innovación & Desarrollo</h2>
-                        <p>El desarrollo de nuevas tecnologias al servicio del GNV & GLP.</p>
-                    </div>
-                    <div class="tiltview col">
-                        <a href="#">
-                            <img src="img/5_screen.jpg" /></a>
-                        <a href="#">
-                            <img src="img/6_screen.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="description">
-                        <h2>Accesorios & Contenedores</h2>
-                        <p>Tranajamos con materiales de la mas alta calidad para brindar confianza y seguridad a nuestros clientes.</p>
-                    </div>
-                    <div class="tiltview row">
-                        <a href="#">
-                            <img src="img/1_mobile.jpg" /></a>
-                        <a href="#">
-                            <img src="img/2_mobile.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="description">
-                        <h2>Sistema SSMGAS</h2>
-                        <p>Tu auto y el mundo te agradeceran un sistema de gas vehicular SSMGAS.</p>
-                    </div>
-                    <div class="tiltview col">
-                        <a href="#">
-                            <img src="img/3_screen.jpg" /></a>
-                        <a href="#">
-                            <img src="img/4_screen.jpg" /></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="description">
-                        <h2>Por un mundo mejor</h2>
-                        <p>Con el uso del Gas Natural Vehicular ayudas a reducir la emision de gases contaminantes de Co2.</p>
-                    </div>
-                    <div class="tiltview row">
-                        <a href="#">
-                            <img src="img/5_mobile.jpg" /></a>
-                        <a href="#">
-                            <img src="img/6_mobile.jpg" /></a>
-                    </div>
-                </li>
-            </ol>
+
+    <div>
+
+        <div id="da-slider" class="da-slider">
+            <div class="da-slide">
+                <h2>SSMGAS</h2>
+                <p>Dedicados a la investigación y desarrollo continuo de nuevas tecnologias para cubrir sus necesidades con calidad.</p>
+                <a href="#" class="da-link">Ver mas</a>
+                <div class="da-img">
+                    <img src="img/logo.png" alt="image01" />
+                </div>
+            </div>
+            <div class="da-slide">
+                <h2>Linea de accesorios y mezcladores</h2>
+                <p>Constantemente con nuestro esfuerzo y dedicación, logramos obtener las mas altas certficaciones en calidad y desarrollo del mercado.</p>
+                <a href="#" class="da-link">Ver mas</a>
+                <div class="da-img">
+                    <img src="img/protectorSSMGAS.png" alt="image01" />
+                </div>
+            </div>
+            <div class="da-slide">
+                <h2>Innovación & Desarrollo</h2>
+                <p>El desarrollo de nuevas tecnologias al servicio del GNV & GLP.</p>
+                <a href="#" class="da-link">Ver mas</a>
+                <div class="da-img">
+                    <img src="img/beruVeritas.jpg" alt="image01" />
+                </div>
+            </div>
+            <div class="da-slide">
+                <h2>Control de calidad</h2>
+                <p>Con las mas altas certificaciones internacionales de calidad, garantizamos un producto en sus manos de la mas alta calidad.</p>
+                <a href="#" class="da-link">Ver mas</a>
+                <div class="da-img">
+                    <img src="img/protectorManometro.png" alt="image01" />
+                </div>
+            </div>
+            <nav class="da-arrows">
+                <span class="da-arrows-prev"></span>
+                <span class="da-arrows-next"></span>
+            </nav>
         </div>
-        <!-- /slideshow -->
+    </div>
 
-        <!-- /container -->
-
-    </header>
     <!--/Slider-->
 
 
     <!-- Portfolio Section -->
     <div class="contenedor">
+          <div>
+                <h2 class="encabezado">Nuestros Productos</h2>
+            </div>
         <div>
-            <h2 class="encabezado">Nuestros Productos</h2>
+          
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/20141PROTECTOR POTENCIOMETRO.jpg" alt="Protector de Potenciometro">
+                    <span class="desc-img">Protector de Potenciometro</span>
+                </a>
+
+            </div>
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/2014BUSHING 3 CUARTOS Y 3 OCTAVOS.jpg" alt="Bushing">
+                    <span class="desc-img">Bushing 3 &frac14; y 3 &frac18;</span>
+                </a>
+            </div>
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/AJUSTADOR-DE-FLUJO-EN-Y-FUNDICION.jpg" alt="Ajustador de flujo en Y">
+                    <span class="desc-img">Ajustador de flujo en Y</span>
+                </a>
+            </div>
         </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
-        </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
-        </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
-        </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
-        </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
-        </div>
-        <div class="img-portafolio">
-            <a>
-                <img src="http://placehold.it/350x250" alt="">
-            </a>
+        <div>
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
+                    <span class="desc-img">Boquilla GNV</span>
+                </a>
+            </div>
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
+                    <span class="desc-img">Grapa para ruta</span>
+                </a>
+            </div>
+            <div class="img-portafolio">
+                <a href="/Vistas/Productos.aspx">
+                    <img src="/img/TEE-3-VIAS.jpg" alt="Tee 3 vias">
+                    <span class="desc-img">Tee 3 vias</span>
+                </a>
+
+            </div>
         </div>
     </div>
     <!--Columnas-->
@@ -155,12 +125,13 @@
                 <li>Accesorios de conexion de alta presion para GNVC</li>
                 <li>Ajustador de flujo de gas</li>
             </ul>
-            <p><strong>Pedreros Orozco Y Cia.</strong> comprometidos con la satisfacción de nuestros clientes se esmera cada día para seguir fortaciendo nuestro 
+            <p>
+                <strong>Pedreros Orozco Y Cia.</strong> comprometidos con la satisfacción de nuestros clientes se esmera cada día para seguir fortaciendo nuestro 
                 sistema de calidad y poder birndar las mejores partes para su motor bajo los más altos estandares de calidad internacional.
             </p>
         </div>
         <div class="descripcion">
-            <img class="img-descripcion" src="http://placehold.it/600x400" alt="">
+            <img class="img-descripcion" src="/img/paisajeRide.jpg" alt="">
         </div>
     </div>
     <!-- /.row -->
@@ -172,9 +143,9 @@
         <div>
             <div class="form-contactenos">
                 <p>Dejanos tu E-mail o número de teléfono y te contactaremos para resolver tus inquietudes.</p>
-                
+
                 <asp:TextBox ID="txtContactenos" runat="server" CssClass="txtContatenos" placeholder="E-mail o Numero Telefonico"></asp:TextBox>
-                
+
                 <div>
                     <asp:Button ID="btnContatenos" runat="server" Text="Envíar" CssClass="btnContactenos" />
                 </div>
