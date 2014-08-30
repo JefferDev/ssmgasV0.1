@@ -30,14 +30,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-        <!--Barra de navegacion-->
         <nav id="menu-principal" class="menu-principal" role="navigation">
             <ul>
-
-                <li onclick="inicio()">Inicio
-                </li>
-
+                <li onclick="inicio()">Inicio </li>
                 <li>
                     <a href="#">Nuestra Empresa</a>
                     <div class="submenu">
@@ -104,7 +99,7 @@
                             <div>
                                 <h4>Accesorios</h4>
                                 <ul>
-                                    <li><a href="/Vistas/Productos.aspx">Sistema de refrigeración</a></li>
+                                    <li><a href="/Vistas/Productos.aspx">Protección</a></li>
                                     <li><a href="/Vistas/Productos.aspx">Electronicos</a></li>
                                     <li><a href="/Vistas/Productos.aspx">Filtros de 5a Generación</a></li>
                                     <li><a href="/Vistas/Productos.aspx">Racores</a></li>
@@ -167,19 +162,20 @@
             <div>
 
                 <h4>Información de contacto</h4>
-             
+
                 <article>
-                    Dirección Calle 145A # 45A-07 Bogotá <br />
+                    Dirección Calle 145A # 45A-07 Bogotá
+                    <br />
                     Teléfonos: (57-1) 258 4552 (57-1) 258 2629 (57) Celular: 315 8040323<br />
                     E-mail :ssmagdala@yahoo.com
-                    <p> SSMGAS 2014 Copyright &copy Todos los derechos reservados</p>
+                    <p>SSMGAS 2014 Copyright &copy Todos los derechos reservados</p>
                     <p>Diseñado y Desarrollado por MohanSoft &copy Todos los derechos reservados</p>
                 </article>
                 <aside>
-                    <input type="button" id="foot-contac" value="Contactenos" onclick="$(document).ready(function () { $(location).attr('href', '/Vistas/Contacto.aspx'); })"/>
+                    <input type="button" id="foot-contac" value="Contactenos" onclick="$(document).ready(function () { $(location).attr('href', '/Vistas/Contacto.aspx'); })" />
                 </aside>
             </div>
-          
+
         </footer>
         <!--/Footer-->
 
@@ -226,7 +222,17 @@
         $(document).ready(main);
 
     </script>
+    <!--Funsion para el zoom de los productos-->
+    <script src="../Scripts/jquery.elevatezoom.js"></script>    
+    <script>
+        var zoom = function () {
 
+      
+            $('#img-1').elevateZoom({ zoomWindowFadeIn: 500, zoomWindowFadeOut: 500, lensFadeIn: 500, lensFadeOut: 500 });
+        }
+
+        $(document).ready(zoom);
+    </script>
 </body>
 
 </html>

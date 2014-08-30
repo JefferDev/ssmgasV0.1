@@ -54,36 +54,74 @@
             </div>
         </div>
         <div class="contendedor-imagenes">
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
+            <div class="cont-interno-default">
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV" id="img-1" data-zoom-image="/img/BOQUILLA-NGV.jpg">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
             </div>
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
+            <div class="cont-interno-default">
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
             </div>
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
-            </div>
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
-            </div>
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
-            </div>
-            <div class="img-portafolio img-producto">
-                <a>
-                    <img src="http://placehold.it/350x250" alt="">
-                </a>
+            <div class="cont-interno-default">
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
+                <div class="producto-img">
+                    <div class="img-portafolio">
+                        <a href="/Vistas/Productos.aspx">
+                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
+                        </a>
+                    </div>
+                    <div class="desc-img-producto">
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!--Plugin para la opcion de zoom-->
+
 </asp:Content>

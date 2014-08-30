@@ -5,8 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <header>
-        <h2>Dejanos tu inquietudes, cuentanos si requieres cotización o conocer mas sobre nuestros productos y te estaremos contactando.
-        </h2>
+        <h2>Linea de contacto.</h2>
     </header>
 
     <div class="contenedor">
@@ -18,8 +17,7 @@
             <asp:TextBox ID="txtTelefono" CssClass="txtContatenos" runat="server" placeholder="Teléfono Celular"></asp:TextBox>
             <br />
             <header>
-                <h3>Describe tu solicitud o comentario:
-                </h3>
+                <h3>Describanos su solicitud o inquietud:</h3>
             </header>
             <textarea id="txtSolicitudes" cols="80" rows="20" title=""></textarea>
             <div>
