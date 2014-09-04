@@ -16,14 +16,12 @@
     <!--Estilos-->
     <link href="/Estilos/normalize.css" rel="stylesheet" />
     <link href="/Estilos/default.css" rel="stylesheet" />
-
-
     <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
     <!--/Estilos-->
     <!--Script-->
-
     <script src="/Scripts/modernizr.custom.28468.js"></script>
     <!--/Script-->
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -205,6 +203,7 @@
         $(function () {
             HorizontalMenu.init();
         });
+
         //Funcion pra redirecion en el boton de inicio a Home
         function inicio() {
             $('.menu-principal li:nth-child(1)').click(function () {
@@ -223,16 +222,8 @@
 
     </script>
     <!--Funsion para el zoom de los productos-->
-    <script src="../Scripts/jquery.elevatezoom.js"></script>    
-    <script>
-        var zoom = function () {
-
-      
-            $('#img-1').elevateZoom({ zoomWindowFadeIn: 500, zoomWindowFadeOut: 500, lensFadeIn: 500, lensFadeOut: 500 });
-        }
-
-        $(document).ready(zoom);
-    </script>
+    <script src="../Scripts/jquery.elevatezoom.js"></script>
+    <script src="../Scripts/productos.js"></script>
 </body>
 
 </html>

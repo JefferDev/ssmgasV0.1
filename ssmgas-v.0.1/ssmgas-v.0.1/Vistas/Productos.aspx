@@ -57,43 +57,20 @@
             <div class="cont-interno-default">
                 <div class="producto-img">
                     <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV" id="img-1" data-zoom-image="/img/BOQUILLA-NGV.jpg">
-                        </a>
+                        <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV" id="img-1">
                     </div>
                     <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
                 <div class="producto-img">
                     <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
-                        </a>
+
+                        <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta" id="img-2">
                     </div>
                     <div class="desc-img-producto">
-                        <p><strong>Boquilla GNV</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-interno-default">
-                <div class="producto-img">
-                    <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
-                        </a>
-                    </div>
-                    <div class="desc-img-producto">
-                        <p><strong>Boquilla GNV</strong></p>
-                    </div>
-                </div>
-                <div class="producto-img">
-                    <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
-                        </a>
-                    </div>
-                    <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
@@ -101,27 +78,49 @@
             <div class="cont-interno-default">
                 <div class="producto-img">
                     <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
-                        </a>
+
+                        <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV" id="img-3">
                     </div>
                     <div class="desc-img-producto">
+                        <q>Ref: 1438</q><
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
                 <div class="producto-img">
                     <div class="img-portafolio">
-                        <a href="/Vistas/Productos.aspx">
-                            <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
-                        </a>
+
+                        <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta" id="img-4">
                     </div>
                     <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-interno-default">
+                <div class="producto-img">
+                    <div class="img-portafolio">
+
+                        <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV" id="img-5">
+                    </div>
+                    <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
+                        <p><strong>Boquilla GNV</strong></p>
+                    </div>
+                </div>
+                <div class="producto-img">
+                    <div class="img-portafolio">
+
+                        <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta" id="img-6">
+                    </div>
+                    <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--Plugin para la opcion de zoom-->
+
 
 </asp:Content>

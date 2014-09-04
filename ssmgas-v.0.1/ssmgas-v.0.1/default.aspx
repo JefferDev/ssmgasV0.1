@@ -6,8 +6,6 @@
 
     <!-- Slider -->
 
-
-
     <div>
 
         <div id="da-slider" class="da-slider">
@@ -33,7 +31,7 @@
                 <p>El desarrollo de nuevas tecnologias al servicio del GNV & GLP.</p>
                 <a href="#" class="da-link">Ver mas</a>
                 <div class="da-img">
-                    <img src="img/img4.png" alt="image01" />
+                    <img src="img/img9.png" alt="image01" />
                 </div>
             </div>
             <div class="da-slide">
@@ -67,6 +65,7 @@
                     </a>
                 </div>
                 <div class="desc-img-producto">
+                    <q>Ref: 1438</q>
                     <p><strong>Boquilla GNV</strong></p>
                 </div>
             </div>
@@ -77,6 +76,7 @@
                     </a>
                 </div>
                 <div class="desc-img-producto">
+                    <q>Ref: 1438</q>
                     <p><strong>Boquilla GNV</strong></p>
                 </div>
             </div>
@@ -86,6 +86,7 @@
                         <img src="/img/TEE-3-VIAS.jpg" alt="Tee 3 vias">
                     </a>
                     <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
@@ -99,6 +100,7 @@
                     </a>
                 </div>
                 <div class="desc-img-producto">
+                    <q>Ref: 1438</q>
                     <p><strong>Boquilla GNV</strong></p>
                 </div>
             </div>
@@ -109,6 +111,7 @@
                     </a>
                 </div>
                 <div class="desc-img-producto">
+                    <q>Ref: 1438</q>
                     <p><strong>Boquilla GNV</strong></p>
                 </div>
             </div>
@@ -118,16 +121,17 @@
                         <img src="/img/TEE-3-VIAS.jpg" alt="Tee 3 vias">
                     </a>
                     <div class="desc-img-producto">
+                        <q>Ref: 1438</q>
                         <p><strong>Boquilla GNV</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--Columnas-->
+    <!--Portafolio Section-->
 
     <!-- Seccion de descipcion -->
-    <div>
+    <div class="cont-descripcion-default">
         <div>
             <h2 class="encabezado">Una empresa dedicada al desarrollo de nuevas tecnologias para el bienestar de todos.</h2>
         </div>
@@ -153,7 +157,7 @@
             </p>
         </div>
         <div class="descripcion">
-            <img class="img-descripcion" src="/img/paisajeRide.jpg" alt="">
+            <img class="img-descripcion" src="/img/img8.png" alt="">
         </div>
     </div>
     <!-- /.row -->
@@ -164,9 +168,9 @@
     <div class="contactenos">
         <div>
             <div class="form-contactenos">
-                <p>Dejanos tu E-mail o número de teléfono y te contactaremos para resolver tus inquietudes.</p>
+                <p>Dejanos tu E-mail y te contactaremos para resolver tus inquietudes.</p>
 
-                <asp:TextBox ID="txtContactenos" runat="server" CssClass="txtContatenos" placeholder="E-mail o Numero Telefonico"></asp:TextBox>
+                <asp:TextBox ID="txtContactenos" runat="server" CssClass="txtContatenos" placeholder="E-mail"></asp:TextBox>
 
                 <div>
                     <asp:Button ID="btnContatenos" runat="server" Text="Envíar" CssClass="btnContactenos" />
