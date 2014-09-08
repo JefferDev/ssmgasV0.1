@@ -84,7 +84,7 @@
                 <li>
                     <a href="/Vistas/Productos.aspx">Productos</a>
                     <div class="submenu">
-                        <div class="submenu-interno">
+                        <div class="submenu-interno" id="submenu-pruductos">
                             <div>
                                 <h4>Contenedores & Protectores</h4>
                                 <ul>
@@ -216,6 +216,10 @@
             $('.submenu-interno p').click(function () {
                 $(location).attr('href', '/Vistas/NuestraEmpresa.aspx');
             });
+            $('#submenu-pruductos h4').click(function () {
+                $(location).attr('href', '/Vistas/Productos.aspx');
+            });
+            $('#submenu-pruductos h4').css('cursor','pointer');
         }
 
         $(document).ready(main);

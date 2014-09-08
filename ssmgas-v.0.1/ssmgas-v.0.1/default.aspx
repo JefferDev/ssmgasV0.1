@@ -61,7 +61,18 @@
             <div class="producto-img">
                 <div class="img-portafolio">
                     <a href="/Vistas/Productos.aspx">
-                        <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
+                        <img src="/img/TEE Porta Manómetro.jpg" alt="Boquilla GNV">
+                    </a>
+                </div>
+                <div class="desc-img-producto">
+                    <q>Ref: 1438</q>
+                    <p><strong>TEE Porta Manómetro</strong></p>
+                </div>
+            </div>
+            <div class="producto-img">
+                <div class="img-portafolio">
+                    <a href="/Vistas/Productos.aspx">
+                        <img src="/img/ssmagdala 035.JPG" alt="Grapa para ruta">
                     </a>
                 </div>
                 <div class="desc-img-producto">
@@ -72,22 +83,11 @@
             <div class="producto-img">
                 <div class="img-portafolio">
                     <a href="/Vistas/Productos.aspx">
-                        <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
-                    </a>
-                </div>
-                <div class="desc-img-producto">
-                    <q>Ref: 1438</q>
-                    <p><strong>Boquilla GNV</strong></p>
-                </div>
-            </div>
-            <div class="producto-img">
-                <div class="img-portafolio">
-                    <a href="/Vistas/Productos.aspx">
-                        <img src="/img/TEE-3-VIAS.jpg" alt="Tee 3 vias">
+                        <img src="/img/Tapón para Contenedor.JPG" alt="Tee 3 vias">
                     </a>
                     <div class="desc-img-producto">
                         <q>Ref: 1438</q>
-                        <p><strong>Boquilla GNV</strong></p>
+                        <p><strong>Tapón para Contenedor</strong></p>
                     </div>
                 </div>
             </div>
@@ -96,33 +96,33 @@
             <div class="producto-img">
                 <div class="img-portafolio">
                     <a href="/Vistas/Productos.aspx">
-                        <img src="/img/BOQUILLA-NGV.jpg" alt="Boquilla GNV">
+                        <img src="/img/Tee para empalme de cilindros.JPG" alt="Boquilla GNV">
                     </a>
                 </div>
                 <div class="desc-img-producto">
                     <q>Ref: 1438</q>
-                    <p><strong>Boquilla GNV</strong></p>
+                    <p><strong>Tee para empalme de cilindros</strong></p>
                 </div>
             </div>
             <div class="producto-img">
                 <div class="img-portafolio">
                     <a href="/Vistas/Productos.aspx">
-                        <img src="/img/GRAPA-PARA-RUTA.jpg" alt="Grapa para ruta">
+                        <img src="/img/Tee Aluminio Aguas.JPG" alt="Grapa para ruta">
                     </a>
                 </div>
                 <div class="desc-img-producto">
                     <q>Ref: 1438</q>
-                    <p><strong>Boquilla GNV</strong></p>
+                    <p><strong>Tee Aluminio Aguas</strong></p>
                 </div>
             </div>
             <div class="producto-img">
                 <div class="img-portafolio">
                     <a href="/Vistas/Productos.aspx">
-                        <img src="/img/TEE-3-VIAS.jpg" alt="Tee 3 vias">
+                        <img src="/img/20141CONTENEDOR HERMETICO TIPO C.jpg" alt="Tee 3 vias">
                     </a>
                     <div class="desc-img-producto">
                         <q>Ref: 1438</q>
-                        <p><strong>Boquilla GNV</strong></p>
+                        <p><strong>Protector para Contenedor Hermetico</strong></p>
                     </div>
                 </div>
             </div>
