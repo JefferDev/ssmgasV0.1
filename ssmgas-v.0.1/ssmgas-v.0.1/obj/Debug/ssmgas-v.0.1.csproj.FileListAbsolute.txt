@@ -3,3 +3,8 @@ C:\Users\JF\Documents\Visual Studio 2012\Projects\ssmgas-v.0.1\ssmgas-v.0.1\bin\
 C:\Users\JF\Documents\Visual Studio 2012\Projects\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.csprojResolveAssemblyReference.cache
 C:\Users\JF\Documents\Visual Studio 2012\Projects\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.dll
 C:\Users\JF\Documents\Visual Studio 2012\Projects\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.pdb
+C:\Users\jcastiblanco\Documents\GitHub\ssmgasV0.1\ssmgas-v.0.1\ssmgas-v.0.1\bin\ssmgas-v.0.1.dll
+C:\Users\jcastiblanco\Documents\GitHub\ssmgasV0.1\ssmgas-v.0.1\ssmgas-v.0.1\bin\ssmgas-v.0.1.pdb
+C:\Users\jcastiblanco\Documents\GitHub\ssmgasV0.1\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.csprojResolveAssemblyReference.cache
+C:\Users\jcastiblanco\Documents\GitHub\ssmgasV0.1\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.dll
+C:\Users\jcastiblanco\Documents\GitHub\ssmgasV0.1\ssmgas-v.0.1\ssmgas-v.0.1\obj\Debug\ssmgas-v.0.1.pdb
